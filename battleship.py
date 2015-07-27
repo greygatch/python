@@ -25,7 +25,7 @@ def random_col(board):
 
 # assign ship position to random values    
 ship_row = random_row(board)
-ship_col = random_row(board)
+ship_col = random_col(board)
 
 # begin game
 print "Let's play Battleship!\n"
